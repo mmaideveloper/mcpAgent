@@ -1,4 +1,4 @@
-azure-ai
+azure-ai-projects
 azure-identity
 requests
 flask

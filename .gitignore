@@ -1,1 +1,4 @@
 ai-agent-project/venv/*
+ai-multi-agent/obj/*
+ai-multi-agent/bin/*
+ai-multi-agent/appsettings.development.json

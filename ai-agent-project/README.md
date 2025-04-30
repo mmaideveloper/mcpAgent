@@ -37,6 +37,7 @@ ai-agent-project
 3. **Install dependencies:**
    ```
    pip install -r requirements.txt
+   pip install --user -r requirements.txt ( install to user available location)
    ```
 
 4. **Configure environment variables:**
@@ -59,3 +60,5 @@ Feel free to submit issues or pull requests for improvements or bug fixes.
 ## License
 
 This project is licensed under the MIT License.
+
+https://learn.microsoft.com/en-us/azure/ai-services/agents/quickstart?pivots=programming-language-python-azure

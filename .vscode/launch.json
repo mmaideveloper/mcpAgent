@@ -1,0 +1,17 @@
+{
+"version": "0.2.0",
+"configurations": [
+			{
+				"name": "AI Multi Agent -.NET Core Launch (console)",
+				"type": "coreclr",
+				"request": "launch",
+				"preLaunchTask":"Debug C# Project",
+				"program": "${workspaceFolder}/ai-multi-agent/bin/Debug/net9.0/ai-multi-agent.exe",
+				"args": ["--debug"],
+				"cwd": "${workspaceFolder}/ai-multi-agent",
+				"stopAtEntry": false,
+				"console": "internalConsole"
+			}
+		]
+}
+    
