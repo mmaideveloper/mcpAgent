@@ -1,0 +1,7 @@
+azure-ai
+azure-identity
+requests
+flask
+python-dotenv
+pydantic
+logging
