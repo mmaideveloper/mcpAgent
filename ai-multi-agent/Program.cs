@@ -6,6 +6,7 @@
 using Azure.Identity;
 using Microsoft.Extensions.Configuration;
 using System;
+using System.Linq;
 
 namespace Azure.AI.Projects.Tests;
 
@@ -36,7 +37,7 @@ public class Sample_Agent
         // Step 1: Create an agent
         Response<Agent> agentResponse = await client.CreateAgentAsync(
             model: "gpt-4o-mini",
-            name: "My Agent",
+            name: "My Agent 1",
             instructions: "You are a helpful agent.",
             tools: new List<ToolDefinition> { new CodeInterpreterToolDefinition() });
         Agent agent = agentResponse.Value;
@@ -82,7 +83,9 @@ public class Sample_Agent
         IReadOnlyList<ThreadMessage> messages = afterRunMessagesResponse.Value.Data;
 
         // Note: messages iterate from newest to oldest, with the messages[0] being the most recent
-        foreach (ThreadMessage threadMessage in messages)
+        foreach (ThreadMessage threadMessage in messages
+        .OrderBy( x=> x.Role == MessageRole.User ? 0 : 1)
+        .ThenBy(x => x.CreatedAt))     
         {
             Console.Write($"{threadMessage.CreatedAt:yyyy-MM-dd HH:mm:ss} - {threadMessage.Role,10}: ");
             foreach (MessageContent contentItem in threadMessage.ContentItems)
