@@ -3,3 +3,4 @@ ai-multi-agent/obj/*
 ai-multi-agent/bin/*
 ai-multi-agent/appsettings.development.json
 ai-agent-project/src/services/__pycache__/azure_agent_service.cpython-312.pyc
+ai-agent-project/.env
