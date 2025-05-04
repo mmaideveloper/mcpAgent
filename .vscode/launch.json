@@ -6,7 +6,7 @@
 				"type": "coreclr",
 				"request": "launch",
 				"preLaunchTask":"Debug C# Project",
-				"program": "${workspaceFolder}/ai-multi-agent/bin/Debug/net9.0/ai-multi-agent.exe",
+				"program": "${workspaceFolder}/ai-multi-agent/bin/Debug/net9.0/ai-multi-agent.dll",
 				"args": ["--debug"],
 				"cwd": "${workspaceFolder}/ai-multi-agent",
 				"stopAtEntry": false,

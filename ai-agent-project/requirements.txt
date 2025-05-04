@@ -5,3 +5,6 @@ flask
 python-dotenv
 pydantic
 logging
+# For Jupyter Notebook
+ipykernel
+openai
