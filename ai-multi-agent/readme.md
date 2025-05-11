@@ -10,3 +10,9 @@ https://microsoft.github.io/ai-agents-for-beginners/https://learn.microsoft.com/
 semantic kernel
 https://learn.microsoft.com/en-us/semantic-kernel/overview/
 
+learn:
+https://learn.microsoft.com/en-us/collections/7801c8tkj3x730
+
+https://www.microsoft.com/en-us/haxtoolkit/
+
+
