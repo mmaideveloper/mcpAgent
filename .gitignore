@@ -6,3 +6,8 @@ ai-agent-project/src/services/__pycache__/azure_agent_service.cpython-312.pyc
 ai-agent-project/.env
 jupyter-nootebooks/.env
 autoGen/.env
+ai-document-inteligence/.env
+ai-document-inteligence/db/*
+ai-document-inteligence/files/*
+ai-document-inteligence/share/*
+ai-document-inteligence/output/*
