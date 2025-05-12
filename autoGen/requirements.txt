@@ -1,0 +1,3 @@
+pip install -U "autogen-agentchat" "autogen-ext[openai]"
+pip install -U "autogenstudio"
+pip install "autogen-ext[azure]"
